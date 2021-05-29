@@ -1,0 +1,11 @@
+<mod name="Animated Skin Framework" author="fragtrane" min_lib_version="3.38" priority="1000">
+	<AssetUpdates provider="github" id="fragtrane/PD2-Animated-Skin-Framework" version_file="$ModPath$/version.txt" release="true"/>
+	
+	<Hooks>
+		<hook file="hooks/setup.lua" source_file="lib/managers/menumanager"/>
+		<hook file="hooks/gamesetup.lua" source_file="lib/setups/gamesetup"/>
+		<hook file="hooks/cosmeticsweaponbase.lua" source_file="lib/units/weapons/cosmeticsweaponbase"/>
+		<hook file="hooks/weaponcolortemplates.lua" source_file="lib/tweak_data/blackmarket/weaponcolortemplates"/>
+		<hook file="hooks/skineditor.lua" source_file="lib/managers/workshop/skineditor"/>
+	</Hooks>
+</table>
